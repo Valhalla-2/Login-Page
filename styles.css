@@ -9,25 +9,24 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color:#e6eff5;
 }
-#container {
-/*   border:1px solid red; */
-  width:40%;
-  margin:0 auto;
+h1 {
+  margin: 2% auto 0 auto;
+  text-align: center;
+  padding: 2%;
 }
-.main-heading > h1 {
-  text-align:center;
-/*   border:1px solid red; */
-  padding:2%;
-  margin-bottom:0;
-}
+
 form {
 /*   border:1px solid blue; */
-  width:60%;
+  width:30%;
   margin:0 auto;
   background-color:#bad1e0;
-  border-radius:5px;
+  border-radius:10px;
   box-shadow:1px 1px 2px 1px #91b0c4;
 }
+.container {
+  padding: 3rem;
+}
+
 label, input{
   display:block;
   padding:0.5rem 2rem;
@@ -45,14 +44,14 @@ input {
 }
 
 .button {
-  display: block;
-  margin: 0 auto 5% auto;
-  padding:.5rem;
+    display: block;
+    margin: 3% auto 5% auto;
+    padding:2%;
     width:40%;
- background-color:#a3b7c4;
-  border:none;
-  border-radius:5px;
-  text-align:center;
+    background-color:#a3b7c4;
+    border:none;
+    border-radius:5px;
+    text-align:center;
 }
 
 .login-section {
