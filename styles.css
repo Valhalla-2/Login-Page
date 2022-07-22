@@ -44,26 +44,11 @@ input {
   
 }
 
-.input-name {
-/*   border-bottom:2px solid white */
-}
-
-.line::before {
-   content: '';
-  position: absolute;
-  top: 40px;
-  left: 0;
-  width: 0px;
-  height: 2px;
-  background: #2691d9;
-  transition: .5s;
-}
-
 .button {
-  margin-left:33%;
-  margin-bottom:2%;
+  display: block;
+  margin: 0 auto 5% auto;
   padding:.5rem;
-    width:10em;
+    width:40%;
  background-color:#a3b7c4;
   border:none;
   border-radius:5px;
