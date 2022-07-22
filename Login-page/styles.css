@@ -59,17 +59,16 @@ label {
     text-align: center;
 }
 a {
-    text-decoration: none;
-    font-style: italic;
+    font-weight: bold;
 
 }
-a:hover {
+/* a:hover {
     background-color: rgb(21, 21, 255);
     color: rgb(255, 255, 255);
     border-radius: 5px;
     font-size: large;
     font-weight: 600;
-}
+} */
 button {
    display: block;
    width: 80%;
